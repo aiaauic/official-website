@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(#11555E, #88B8DD);
+    font-family: Arial, sans-serif;
+}
+
+section {
+    position: relative;
+    padding: 50px;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-right a h4:hover {
+    color: red;
+}
+
+.managers {
+    text-align: center;
+    padding: 50px;
+}
+
+.managers img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+    section {
+        display: block;
+    }
+}
+
+footer {
+    background-color: #0D282D;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF5F;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
